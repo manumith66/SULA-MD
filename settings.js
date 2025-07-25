@@ -5,19 +5,19 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 
-SESSION_ID: process.env.SESSION_ID === undefined ? '𝐒𝐔𝐋𝐀-𝐌𝐃=Y3khTIDD#8aF5Dk_6WDmUywh61n_LDDlrLA77FcbK6_-7FcM1Ggw' : process.env.SESSION_ID,
+SESSION_ID: process.env.SESSION_ID === undefined ? '𝐒𝐔𝐋𝐀-𝐌𝐃=cn9AGLyR#nqNy2-ToZMMskoNZosB27ToFzFbHTk3MEP7PaW_37E4' : process.env.SESSION_ID,
 PREFIX: process.env.PREFIX || '.' ,
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ?"true" : process.env.AUTO_READ_STATUS,
 AUTO_REACT_STATUS: process.env.AUTO_REACT_STATUS === undefined ?"true" : process.env.AUTO_REACT_STATUS,
 MODE: process.env.MODE === undefined ?"privet" : process.env.MODE,
-AUTO_VOICE: process.env.AUTO_VOICE === undefined ? "false" : process.env.AUTO_VOICE,
+AUTO_VOICE: process.env.AUTO_VOICE === undefined ? "true" : process.env.AUTO_VOICE,
 AUTO_REPLY: process.env.AUTO_REPLY === undefined ? "false" : process.env.AUTO_REPLY,
 AI_REPLAY: process.env.AI_REPLAY === undefined ? "false" : process.env.AI_REPLAY,//AI_REPLAY KARANA KOTASA ADD KARA
-AUTO_STICKER: process.env.AUTO_STICKER === undefined ? "false" : process.env.AUTO_STICKER,
+AUTO_STICKER: process.env.AUTO_STICKER === undefined ? "true" : process.env.AUTO_STICKER,
 ANTI_BAD: process.env.ANTI_BAD === undefined ? "false" : process.env.ANTI_BAD,
 ANTI_LINK: process.env.ANTI_LINK === undefined ? "false" : process.env.ANTI_LINK,
 ANTI_CALL: process.env.ANTI_CALL === undefined ? "false" : process.env.ANTI_CALL,    
-WELCOME_GOODBYE: process.env.WELCOME_GOODBYE === undefined ? "false" : process.env.WELCOME_GOODBYE,
+WELCOME_GOODBYE: process.env.WELCOME_GOODBYE === undefined ? "true" : process.env.WELCOME_GOODBYE,
 DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO,
 ANTI_DELETE : process.env.ANTI_DELETE === undefined ? 'true' : process.env.ANTI_DELETE,
 ANTI_BOT: process.env.ANTI_BOT === undefined ? "false" : process.env.ANTI_BOT,
